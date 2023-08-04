@@ -1,7 +1,7 @@
 import styles from './Description.module.css';
 import React from 'react';
 
-const RecipeAuthor = () => {
+export const RecipeAuthor = () => {
     let authorLink;
     let authorPhoto;
     let authorName;
@@ -16,7 +16,7 @@ const RecipeAuthor = () => {
      );
 };
 
-class RecipeDescription extends React.Component {
+export class RecipeDescription extends React.Component {
     render() {
         return(
             <div> 
@@ -30,4 +30,3 @@ class RecipeDescription extends React.Component {
     };   
 };
 
-export default RecipeDescription;
